@@ -1,0 +1,31 @@
+.navlink{
+  transition: 0,2ms;
+  color: white;
+  text-decoration: none;
+  margin:10px;
+  padding:7px;
+  background: rgba(76,76,76,1);
+  box-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  border-radius:3px;
+  &:hover, :active{
+      background-color: #22313F;
+      color: #F7CA18;
+      border: 2px solid #F7CA18;
+  }
+  
+}
+.selected{
+ 
+  border-bottom: 3px solid white;
+
+}
+.w{
+  font-size: 6vh;
+}
+.ance{
+  font-size: 4vh;
+}
+#buttonCollapse{
+  box-shadow: rgb(0, 0, 0) 2px 2px 2px;
+
+}
